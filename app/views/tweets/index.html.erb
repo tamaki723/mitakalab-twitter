@@ -1,0 +1,9 @@
+
+<h1>*Tweet*</h1>
+
+<% @tweets.each do |tweet| %>
+  <h2><%= tweet.title %></h2>
+  <p><%= tweet.content %></p>
+	<%= tweet.created_at %> 
+<% end %>
+
